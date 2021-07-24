@@ -112,7 +112,7 @@ async function prepareItrForm(jsonArray, parentSelector) {
 
     if (
       i === jsonArray.length - 1 &&
-      jsonArray[0].code != INCOMES_EXEMPTIONS[0].code
+      jsonArray[0].code !== INCOMES_EXEMPTIONS[0].code
     ) {
       let buttonElement = $('<div></div>', { html: buttonHtml });
       buttonElement.find('button').attr({
@@ -322,7 +322,7 @@ async function calculateTaxPaybleNewRegime(inputValues) {
       (taxableIncome - (SLAB_1 + SLAB_2 + SLAB_3 + SLAB_4 + SLAB_5)) *
         SLAB_6_TAX_IN_PERCENT;
   }
-  proposedTax = await calculateAfterSurcharge(
+  proposedTax =  calculateAfterSurcharge(
     netIncomeAfterExemption,
     proposedTax
   );

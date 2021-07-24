@@ -3,11 +3,11 @@
 import "./itr.js";
 import { Component } from "react";
 import RegimeCard from "../RegimeCard/RegimeCard.js";
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import SimpleAccordion from "../Accordions/SimpleAccordion.js";
+// import AccordionSummary from '@material-ui/core/AccordionSummary';
+// import AccordionDetails from '@material-ui/core/AccordionDetails';
+// import Typography from '@material-ui/core/Typography';
+// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+// import SimpleAccordion from "../Accordions/SimpleAccordion.js";
 class TaxForm extends Component {
   state = {  };
     render() {

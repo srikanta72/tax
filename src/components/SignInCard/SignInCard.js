@@ -10,7 +10,7 @@ class SignInCard extends Component {
                 <span class="gprofile-name">Hi there, </span>
 
                 <span class="gprofile-icon d-none float-end">
-                  <a
+                  {/* <a
                     class="btn"
                     href="#"
                     role="button"
@@ -18,16 +18,16 @@ class SignInCard extends Component {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    {/* <img class="rounded-circle" src="../assets/icons/person-circle.svg"
-                                      alt="Not Signed in" style="height: 50px;width: 50px;"/> */}
-                  </a>
+                    <img class="rounded-circle" src="../assets/icons/person-circle.svg"
+                                      alt="Not Signed in" style="height: 50px;width: 50px;"/>
+                  </a> */}
 
                   <ul
                     class="dropdown-menu"
                     aria-labelledby="dropdownMenuLink"
                   >
                     <li>
-                      <a id="signout_button" class="dropdown-item" href="#">
+                      <a id="signout_button" class="dropdown-item" href="/">
                         &#10149; Sign out
                       </a>
                     </li>
@@ -35,7 +35,7 @@ class SignInCard extends Component {
                       <a
                         id="rescan_all_email_button"
                         class="dropdown-item"
-                        href="#"
+                        href="/"
                       >
                         &#8635; Sync again
                       </a>

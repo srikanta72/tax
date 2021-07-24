@@ -53,9 +53,8 @@ class Preference extends Component {
                 <hr />
                 <h6 class="d-flex justify-content-between align-items-center mb-3">
                   <a
-                    class="clear-all-page-data__a"
                     href="#all-transactions"
-                    class="fw-bold see-all-transactions-wrapper__a"
+                    class="clear-all-page-data__a fw-bold see-all-transactions-wrapper__a"
                   >
                     <span class="text-secondary">
                       Delete all of my data present on this page.
