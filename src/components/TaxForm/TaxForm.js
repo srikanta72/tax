@@ -12,16 +12,16 @@ class TaxForm extends Component {
   state = {  };
     render() {
     return (
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <RegimeCard name="Old Regime" />
           <RegimeCard name="New Regime" />
         </div>
         <div>
           <hr />
-          <form class="needs-validation" novalidate id="cz-itr-calc-form">
-            <div class="row g-3">
-              <div class="accordion p-0" id="heading-ITRCALC" />
+          <form className="needs-validation" noValidate id="cz-itr-calc-form">
+            <div className="row g-3">
+              <div className="accordion p-0" id="heading-ITRCALC" />
             </div>
             {/* <SimpleAccordion/> */}
           </form>

@@ -8,7 +8,7 @@ class MainLayout extends Component {
   state = {};
   render() {
     return (
-      <main class="container" id="main">
+      <main className="container" id="main">
         <Heading />
         <BetaInvite />
         <Preference />

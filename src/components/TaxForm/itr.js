@@ -11,40 +11,40 @@ $(document).ready(async function() {
 });
 async function prepareItrForm(jsonArray, parentSelector) {
   const inputHtml = `
-    <div class="col-12 pt-2">
+    <div className="col-12 pt-2">
     
-        <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <div className="form-floating mb-3">
+        <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
-        <div class="invalid-feedback">
+        <div className="invalid-feedback">
                             Valid amount is required.
                         </div>
         </div>
     </div>`;
-  const accordianItemHtml = `<div class="accordion-item p-1">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseITR80C" aria-expanded="false" aria-controls="collapseITR80C">
-                <div class="col-5 label-title-alt"> Title </div>
-                <div class="col-6">
-                    <!-- <label for="" class="form-label"></label> -->
-                    <div class="input-group has-validation">
-                        <span class="input-group-text cz-currency-symbol bg-transparent border-0 p-0">₹</span>
-                        <input type="number" class="form-control bg-transparent border-0" disabled>
-                        <div class="invalid-feedback">
+  const accordianItemHtml = `<div className="accordion-item p-1">
+        <h2 className="accordion-header">
+            <button className="accordion-button collapsed p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseITR80C" aria-expanded="false" aria-controls="collapseITR80C">
+                <div className="col-5 label-title-alt"> Title </div>
+                <div className="col-6">
+                    <!-- <label for="" className="form-label"></label> -->
+                    <div className="input-group has-validation">
+                        <span className="input-group-text cz-currency-symbol bg-transparent border-0 p-0">₹</span>
+                        <input type="number" className="form-control bg-transparent border-0" disabled>
+                        <div className="invalid-feedback">
                             Valid amount is required.
                         </div>
                     </div>
                 </div>
             </button>
         </h2>
-        <div id="collapseITR80C" class="accordion-collapse collapse" aria-labelledby="headingITR80C" data-bs-parent="#headingExemptions">
-            <div class="accordion-body p-2">
+        <div id="collapseITR80C" className="accordion-collapse collapse" aria-labelledby="headingITR80C" data-bs-parent="#headingExemptions">
+            <div className="accordion-body p-2">
                 <!-- Body -->
             </div>
         </div>
     </div>`;
-  const buttonHtml = `<div class="col-12">
-        <button class="btn btn-sm btn-outline-primary mt-2 next-btn" type="button">&#10142; Next</button>
+  const buttonHtml = `<div className="col-12">
+        <button className="btn btn-sm btn-outline-primary mt-2 next-btn" type="button">&#10142; Next</button>
     </div>`;
   for (let i = 0; i < jsonArray.length; i++) {
     const jsonObj = jsonArray[i];
